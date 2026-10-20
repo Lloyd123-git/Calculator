@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanilla JS Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <!-- Display window for calculator -->
+    <div class="display" id="display">0</div>
+
+    <!-- Buttons for calculator -->
+      <div class="buttons">
+        <button class="btn-operator" data-action="clear">C</button>
+        <button class="btn-operator" data-action="delete">⌫</button>
+        <button class="btn-operator" data-action="divide">÷</button>
+        <button class="btn-operator" data-action="multiply">x</button>
+      
+
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn-operator" data-action="subtract">-</button>
+
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn-operator" data-action="add">+</button>
+
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn-operator" data-action="calculate">=</button>
+      
+      <button class="btn-zero">0</button>
+      <button class="btn" data-action="decimal">.</button>
+    </div> 
+
+  <script src="app.js"></script>
+</body>
+</html>
